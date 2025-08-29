@@ -81,7 +81,10 @@ module.exports = {
       colors: tailwindColors,
       spacing: tailwindSpacing,
       borderRadius: tailwindBorderRadius,
-      fontFamily: tailwindFontFamily,
+      fontFamily: {
+        ...tailwindFontFamily,
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
       // Aquí puedes agregar más categorías como fontSize, fontWeight, etc.
     },
   },
