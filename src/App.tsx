@@ -1,9 +1,5 @@
-import './App.css'
 import CustomCard from './components/CustomCard'
 import CustomCarTwo from './components/CustomCarTwo'
-// import { BuilderComponent } from '@builder.io/react';
-
-// const BUILDER_API_KEY = 'd2bcebe3696b4c9a9e77d2e6534a6972';
 
 function App() {
   return (
@@ -13,7 +9,6 @@ function App() {
       </h1>
       <CustomCard />
       <CustomCarTwo />
-      {/* <BuilderComponent model="page" apiKey={BUILDER_API_KEY} /> */}
     </div>
   )
 }
