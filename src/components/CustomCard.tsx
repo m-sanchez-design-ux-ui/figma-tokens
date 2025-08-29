@@ -4,7 +4,7 @@ interface CustomCardProps {
 
 export default function CustomCard({ className = "" }: CustomCardProps) {
   return (
-    <div className={`inline-flex max-w-96 p-5 flex-col justify-center items-center gap-md rounded-lg bg-white shadow-lg ${className}`}>
+    <div className={`inline-flex max-w-96 p-5 flex-col justify-center items-center gap-10 rounded-lg bg-white shadow-lg ${className}`}>
       <h2 className="text-gray-900 text-center font-heading text-2xl font-bold leading-[150%]">
         Welcome!
       </h2>
