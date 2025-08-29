@@ -83,6 +83,7 @@ module.exports = {
       borderRadius: tailwindBorderRadius,
       fontFamily: {
         ...tailwindFontFamily,
+        'sans': ['Montserrat', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
       },
       // Aquí puedes agregar más categorías como fontSize, fontWeight, etc.
