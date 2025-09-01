@@ -33,6 +33,15 @@ export default {
       fontFamily: {
         "montserrat" : "var(--typeDefault)",
       },
+      colors: {
+        "token-primary": "var(--token-primary-color)",
+        "token-secondary": "var(--token-secondary-color)",
+      },
+      spacing: {
+        "token-spacing-small": "var(--token-spacing-small)",
+        "token-spacing-medium": "var(--token-spacing-medium)",
+        "token-spacing-large": "var(--token-spacing-large)",
+      }
     },
   },
   plugins: [],
