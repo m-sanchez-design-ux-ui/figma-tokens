@@ -7,16 +7,16 @@ Builder.register("editor.settings", {
   styleStrictMode: true, // optional
   designTokens: {
     fontFamily: [
-      { name: "TokenFontFamily", value: "var(--typeDefault)"},
+      { name: "TokenFontFamily", value: "var(--typeDefault, Montserrat)"},
     ],
     colors: [
-      { name: "TokenPrimary", value: "var(--token-primary-color)" },
-      { name: "TokenSecondary", value: "var(--token-secondary-color)" },
+      { name: "TokenPrimary", value: "var(--token-primary-color, #12c54e)" },
+      { name: "TokenSecondary", value: "var(--token-secondary-color, #006ce7)" },
     ],
     spacing: [
-      { name: "TokenSpacingSmall", value: "var(--token-spacing-small)" },
-      { name: "TokenSpacingMedium", value: "var(--token-spacing-medium)" },
-      { name: "TokenSpacingLarge", value: "var(--token-spacing-large)" },
+      { name: "TokenSpacingSmall", value: "var(--token-spacing-small, 4px)" },
+      { name: "TokenSpacingMedium", value: "var(--token-spacing-medium , 8px)" },
+      { name: "TokenSpacingLarge", value: "var(--token-spacing-large, 12px)" },
     ],
     // Otros tokens...
   },
