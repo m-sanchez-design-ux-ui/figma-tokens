@@ -25,7 +25,7 @@ Builder.register("editor.settings", {
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-token-spacing-medium bg-token-primary">
+    <div className="min-h-screen flex flex-col items-center justify-center gap-token-spacing-large bg-token-primary">
       <h1 className="text-white text-4xl font-bold">
         Tailwind 3.4.14 Edited 4✅
       </h1>
