@@ -9,11 +9,11 @@ export default function CustomCarTwo({ className = "" }: CustomCarTwoProps) {
         Welcome!
       </h2>
       
-      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-blue-500 text-white font-heading text-sm font-bold leading-[150%] hover:bg-blue-600 transition-colors">
+      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-token-primary text-white font-heading text-sm font-bold leading-[150%] transition-colors">
         Button 01
       </button>
       
-      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-blue-500 text-white font-heading text-sm font-bold leading-[150%] hover:bg-blue-600 transition-colors">
+      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-token-secondary text-white font-heading text-sm font-bold leading-[150%] transition-colors">
         Button 02
       </button>
     </div>
