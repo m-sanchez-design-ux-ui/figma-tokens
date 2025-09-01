@@ -9,11 +9,11 @@ export default function CustomCard({ className = "" }: CustomCardProps) {
         Welcome!
       </h2>
       
-      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-token-secondary text-white font-heading text-sm font-bold leading-[150%] hover:bg-blue-700 transition-colors">
+      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-token-primary text-white font-heading text-sm font-bold leading-[150%] transition-colors">
         Button 01
       </button>
       
-      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-token-primary text-white font-heading text-sm font-bold leading-[150%] hover:bg-blue-700 transition-colors">
+      <button className="flex py-[10px] px-5 justify-center items-center gap-2 rounded-lg bg-token-secondary text-white font-heading text-sm font-bold leading-[150%] transition-colors">
         Button 02
       </button>
     </div>
