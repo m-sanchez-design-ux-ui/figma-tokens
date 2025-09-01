@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 :root {
+  /* Font Family*/
   --typeDefault: "Montserrat", sans-serif;
+  /* Colors */
+  --token-primary-color: #12c54e;   
+  --token-secondary-color: #006ce7;
+  /* Spacing */
+  --token-spacing-small: 4px;
+  --token-spacing-medium: 8px;
+  --token-spacing-large: 12px;
 }
 
 @font-face {
