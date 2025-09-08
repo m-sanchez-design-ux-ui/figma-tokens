@@ -1,36 +1,41 @@
-import CustomCard from './components/CustomCard'
-import CustomCarTwo from './components/CustomCarTwo'
-//import './tokens/design-tokens'
-import { Builder } from "@builder.io/react";
-
-Builder.register("editor.settings", {
-  styleStrictMode: true, // optional
-  designTokens: {
-    fontFamily: [
-      { name: "TokenFontFamily", value: "var(--typeDefault, Montserrat)"},
-    ],
-    colors: [
-      { name: "TokenPrimary", value: "var(--token-primary-color, #12c54e)" },
-      { name: "TokenSecondary", value: "var(--token-secondary-color, #006ce7)" },
-    ],
-    spacing: [
-      { name: "TokenSpacingSmall", value: "var(--token-spacing-small, 4px)" },
-      { name: "TokenSpacingMedium", value: "var(--token-spacing-medium , 8px)" },
-      { name: "TokenSpacingLarge", value: "var(--token-spacing-large, 12px)" },
-    ],
-    // Otros tokens...
-  },
-});
+// import CustomCard from './components/CustomCard'
+// import CustomCarTwo from './components/CustomCarTwo'
 
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-token-spacing-large bg-token-primary">
       <h1 className="text-white text-4xl font-bold">
-        Tailwind 3.4.14 Edited 4✅
+        Tailwind Token Test 
       </h1>
-      <CustomCard />
-      <CustomCarTwo />
+      {/* <CustomCard />
+      <CustomCarTwo /> */}
+
+      <p className="text-accent-500 font-bold">
+        Importante: revisa los cambios antes de confirmar.
+      </p>
+      
+      <button className="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-lg shadow-md">
+        Confirmar
+      </button>
+
+      <button className="bg-secondary-500 hover:bg-secondary-600 text-white px-4 py-2 rounded-lg">
+        Cancelar
+      </button>
+
+      <div className="bg-white p-card rounded-card shadow-xl max-w-sm mx-auto border border-line-card">
+        <h2 className="text-primary-600 text-xl font-semibold mb-2">
+          Título de la tarjeta
+        </h2>
+        <p className="text-gray-600 mb-4">
+          Esta tarjeta utiliza **design tokens** para padding, border-radius y box-shadow.
+        </p>
+        <button className="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded transition-colors duration-200">
+          Acción principal
+        </button>
+      </div>
+
+
     </div>
   )
 }

@@ -1,20 +1,7 @@
+/*Importación de fuente vía google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/*Importación estilos de Tailwind CSS*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  /* Font Family*/
-  --typeDefault: "Montserrat", sans-serif;
-  /* Colors */
-  --token-primary-color: #12c54e;   
-  --token-secondary-color: #006ce7;
-  /* Spacing */
-  --token-spacing-small: 4px;
-  --token-spacing-medium: 8px;
-  --token-spacing-large: 12px;
-}
-
-@font-face {
-  font-family: var(--typeDefault);
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-}
