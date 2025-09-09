@@ -192,7 +192,7 @@ export default {
         // Semánticos
         "card": `${tokens.Primitives.radius["radius-5"].$value}px`,
         "button": `${tokens.Primitives.radius["radius-2"].$value}px`,
-        "dropdown": `${tokens.Primitives.radius["radius-2"].$value}px`,
+        "drop-down": `${tokens.Primitives.radius["radius-2"].$value}px`,
       },
 
       //-------------------------🔳 Border Width-----------------------------------//
