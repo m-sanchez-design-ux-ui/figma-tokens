@@ -1,6 +1,7 @@
 import Header from './components/header/header' 
 import Footer from './components/footer/footer' 
 import Card from './components/card/card'
+import CardProfile from "./components/card/card-profile"
 
 function App() {
   return (
@@ -18,10 +19,13 @@ function App() {
             Here put the title...
           </h1>
 
-          {/* Card Tokens */}  
+          {/* Card Default Tokens */}  
           <Card/>
 
         </section>
+        
+          {/* Card Profile Tokens*/}  
+          <CardProfile/>
 
         {/* Footer Tokens*/}
         <Footer />
