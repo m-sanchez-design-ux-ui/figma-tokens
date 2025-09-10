@@ -15,13 +15,13 @@ export default function Card() {
 
               {/* Secondary Button lg*/}
 
-              <button type="button" className="w-full flex flex-row flex-wrap justify-center items-center bg-transparent border-solid border border-line-button-secondary px-button-lg-x py-button-lg-y rounded-button text-text-secondary font-600 text-sm">
+              <button type="button" className="w-full min-h-11 flex flex-row flex-wrap justify-center items-center bg-transparent border-solid border border-line-button-secondary px-button-lg-x py-button-lg-y rounded-button text-text-secondary font-600 text-sm">
                Cancel
               </button>
               
               {/* Primary Button lg*/}
 
-              <button type="button" className="w-full flex flex-row flex-wrap justify-center items-center bg-bg-primary-button px-button-lg-x py-button-lg-y rounded-button text-text-contrast font-600 text-sm">
+              <button type="button" className="w-full min-h-11 flex flex-row flex-wrap justify-center items-center bg-bg-primary-button px-button-lg-x py-button-lg-y rounded-button text-text-contrast font-600 text-sm">
                 Confirm
               </button>
 

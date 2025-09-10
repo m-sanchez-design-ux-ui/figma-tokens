@@ -15,9 +15,9 @@ function App() {
         <section className='flex flex-col items-center gap-gap-lg'>
 
           {/* Title h2 Tokens */}
-          <h1 className="text-text-title text-h2 font-600">
+          <h2 className="text-text-title text-h2 font-600">
             Here put the title...
-          </h1>
+          </h2>
 
           {/* Card Default Tokens */}  
           <Card/>
