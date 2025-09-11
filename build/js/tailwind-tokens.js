@@ -1,4 +1,9 @@
-{
+/**
+ * Do not edit directly
+ * Generated on Thu, 11 Sep 2025 19:55:29 GMT
+ */
+
+module.exports = {
   "Primitives": {
     "color": {
       "gray": {
@@ -596,194 +601,344 @@
       "main": {
         "brand-primary": {
           "$type": "color",
-          "$value": "{Primitives.color.brand-1.500}"
+          "$value": {
+            "$type": "color",
+            "$value": "#016fff"
+          }
         },
         "brand-secondary": {
           "$type": "color",
-          "$value": "{Primitives.color.accent.500}"
+          "$value": {
+            "$type": "color",
+            "$value": "#003a99"
+          }
         },
         "brand-tertiary": {
           "$type": "color",
-          "$value": "{Primitives.color.brand-2.500}"
+          "$value": {
+            "$type": "color",
+            "$value": "#64748b"
+          }
         }
       },
       "text": {
         "text-primary": {
           "$type": "color",
-          "$value": "{Primitives.color.brand-1.500}"
+          "$value": {
+            "$type": "color",
+            "$value": "#016fff"
+          }
         },
         "text-tertiary": {
           "$type": "color",
-          "$value": "{Semantic.color.main.brand-tertiary}"
+          "$value": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#64748b"
+            }
+          }
         },
         "text-title": {
           "$type": "color",
-          "$value": "{Primitives.color.gray.700}"
+          "$value": {
+            "$type": "color",
+            "$value": "#374151"
+          }
         },
         "text-paragraph": {
           "$type": "color",
-          "$value": "{Primitives.color.gray.500}"
+          "$value": {
+            "$type": "color",
+            "$value": "#6b7280"
+          }
         },
         "text-contrast": {
           "$type": "color",
-          "$value": "{Primitives.color.white.white}"
+          "$value": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
         },
         "text-secondary": {
           "$type": "color",
-          "$value": "{Semantic.color.main.brand-secondary}"
+          "$value": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#003a99"
+            }
+          }
         }
       },
       "background": {
         "bg-body": {
           "$type": "color",
-          "$value": "{Primitives.color.brand-1.50}"
+          "$value": {
+            "$type": "color",
+            "$value": "#eff6ff"
+          }
         },
         "bg-card": {
           "$type": "color",
-          "$value": "{Primitives.color.white.white}"
+          "$value": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
         },
         "bg-primary-button": {
           "$type": "color",
-          "$value": "{Semantic.color.main.brand-primary}"
+          "$value": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#016fff"
+            }
+          }
         },
         "bg-footer": {
           "$type": "color",
-          "$value": "{Primitives.color.white.white}"
+          "$value": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
         }
       },
       "line": {
         "button-primary": {
           "$type": "color",
-          "$value": "{Semantic.color.main.brand-primary}"
+          "$value": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#016fff"
+            }
+          }
         },
         "card": {
           "$type": "color",
-          "$value": "{Primitives.color.gray.400}"
+          "$value": {
+            "$type": "color",
+            "$value": "#9ca3af"
+          }
         },
         "button-secondary": {
           "$type": "color",
-          "$value": "{Semantic.color.main.brand-secondary}"
+          "$value": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#003a99"
+            }
+          }
         },
         "button-tertiary": {
           "$type": "color",
-          "$value": "{Semantic.color.main.brand-tertiary}"
+          "$value": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#64748b"
+            }
+          }
         }
       }
     },
     "padding": {
       "button-base-x": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-2}"
+        "$value": {
+          "$type": "number",
+          "$value": 8
+        }
       },
       "card": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-5}"
+        "$value": {
+          "$type": "number",
+          "$value": 20
+        }
       },
       "link-button": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-0}"
+        "$value": {
+          "$type": "number",
+          "$value": 0
+        }
       },
       "button-lg-x": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-2-5}"
+        "$value": {
+          "$type": "number",
+          "$value": 10
+        }
       },
       "button-xl-x": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-5}"
+        "$value": {
+          "$type": "number",
+          "$value": 20
+        }
       },
       "button-base-y": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-3}"
+        "$value": {
+          "$type": "number",
+          "$value": 12
+        }
       },
       "button-lg-y": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-5}"
+        "$value": {
+          "$type": "number",
+          "$value": 20
+        }
       },
       "button-xl-y": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-3}"
+        "$value": {
+          "$type": "number",
+          "$value": 12
+        }
       },
       "drop-down": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-2-5}"
+        "$value": {
+          "$type": "number",
+          "$value": 10
+        }
       },
       "footer": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-2-5}"
+        "$value": {
+          "$type": "number",
+          "$value": 10
+        }
       }
     },
     "gap": {
       "gap-xs": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-1}"
+        "$value": {
+          "$type": "number",
+          "$value": 4
+        }
       },
       "gap-sm": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-2}"
+        "$value": {
+          "$type": "number",
+          "$value": 8
+        }
       },
       "gap-md": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-4}"
+        "$value": {
+          "$type": "number",
+          "$value": 16
+        }
       },
       "gap-lg": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-8}"
+        "$value": {
+          "$type": "number",
+          "$value": 32
+        }
       },
       "gap-xl": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-16}"
+        "$value": {
+          "$type": "number",
+          "$value": 64
+        }
       }
     },
     "radius": {
       "card": {
         "$type": "number",
-        "$value": "{Primitives.radius.radius-5}"
+        "$value": {
+          "$type": "number",
+          "$value": 20
+        }
       },
       "button": {
         "$type": "number",
-        "$value": "{Primitives.radius.radius-1}"
+        "$value": {
+          "$type": "number",
+          "$value": 4
+        }
       },
       "dropdown": {
         "$type": "number",
-        "$value": "{Primitives.spacing.spacing-2}"
+        "$value": {
+          "$type": "number",
+          "$value": 8
+        }
       }
     },
     "font-sizes": {
       "h1": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-7xl}"
+        "$value": {
+          "$type": "number",
+          "$value": 64
+        }
       },
       "h2": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-5xl}"
+        "$value": {
+          "$type": "number",
+          "$value": 48
+        }
       },
       "h3": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-3xl}"
+        "$value": {
+          "$type": "number",
+          "$value": 32
+        }
       },
       "h4": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-2xl}"
+        "$value": {
+          "$type": "number",
+          "$value": 24
+        }
       },
       "h5": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-xl}"
+        "$value": {
+          "$type": "number",
+          "$value": 20
+        }
       },
       "h6": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-lg}"
+        "$value": {
+          "$type": "number",
+          "$value": 18
+        }
       },
       "p": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-md}"
+        "$value": {
+          "$type": "number",
+          "$value": 16
+        }
       },
       "span": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-sm}"
+        "$value": {
+          "$type": "number",
+          "$value": 14
+        }
       },
       "label": {
         "$type": "number",
-        "$value": "{Primitives.typography.sizes.font-size-xs}"
+        "$value": {
+          "$type": "number",
+          "$value": 12
+        }
       }
     }
   },
@@ -794,4 +949,4 @@
       "Semantic/Mode 1"
     ]
   }
-}
+};
