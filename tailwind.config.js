@@ -5,6 +5,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js", //Flowbite
   ],
   theme: {
     screens: {
@@ -238,5 +239,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin') //Flowbite
+  ],
 };
