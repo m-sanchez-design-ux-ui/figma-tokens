@@ -12,7 +12,7 @@ const config = {
       }]
     },
     js: {
-      transformGroup: 'web', // CAMBIA ESTA LÍNEA
+      transformGroup: 'web',
       buildPath: 'build/js/',
       files: [{
         destination: 'tailwind-tokens.js',

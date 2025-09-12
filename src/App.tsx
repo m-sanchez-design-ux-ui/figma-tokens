@@ -8,7 +8,7 @@ function App() {
 <main className="bg-body flex items-center justify-center min-h-screen">
 
 <div className="bg-white rounded-card p-card shadow-md">
-  <div className="w-full flex flex-col gap-md">
+  <div className="w-full flex flex-col gap-gap-xs-2 bg-bg-primary-button">
     <h1 className="text-title text-center">Figma Tokens Demo</h1>
     <p className="text-paragraph text-center">¡Los estilos se están aplicando correctamente!</p>
     
