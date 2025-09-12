@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 11 Sep 2025 19:55:29 GMT
+ * Generated on Fri, 12 Sep 2025 10:47:46 GMT
  */
 
 module.exports = {
@@ -110,26 +110,26 @@ module.exports = {
           "$value": "#172554"
         }
       },
-      "brand": {
+      "brand-1": {
         "50": {
           "$type": "color",
-          "$value": "#d6e8ff"
+          "$value": "#eff6ff"
         },
         "100": {
           "$type": "color",
-          "$value": "#add1ff"
+          "$value": "#dbeafe"
         },
         "200": {
           "$type": "color",
-          "$value": "#85baff"
+          "$value": "#bfdbfe"
         },
         "300": {
           "$type": "color",
-          "$value": "#5ca3ff"
+          "$value": "#93c5fd"
         },
         "400": {
           "$type": "color",
-          "$value": "#338bff"
+          "$value": "#60a5fa"
         },
         "500": {
           "$type": "color",
@@ -137,23 +137,23 @@ module.exports = {
         },
         "600": {
           "$type": "color",
-          "$value": "#0058cc"
+          "$value": "#0058d6"
         },
         "700": {
           "$type": "color",
-          "$value": "#0047a3"
+          "$value": "#0041a8"
         },
         "800": {
           "$type": "color",
-          "$value": "#00357a"
+          "$value": "#002d7a"
         },
         "900": {
           "$type": "color",
-          "$value": "#002352"
+          "$value": "#001a4d"
         },
         "950": {
           "$type": "color",
-          "$value": "#001a3d"
+          "$value": "#000c26"
         }
       },
       "accent": {
@@ -202,52 +202,6 @@ module.exports = {
           "$value": "#000a1a"
         }
       },
-      "brand-1": {
-        "50": {
-          "$type": "color",
-          "$value": "#eff6ff"
-        },
-        "100": {
-          "$type": "color",
-          "$value": "#dbeafe"
-        },
-        "200": {
-          "$type": "color",
-          "$value": "#bfdbfe"
-        },
-        "300": {
-          "$type": "color",
-          "$value": "#93c5fd"
-        },
-        "400": {
-          "$type": "color",
-          "$value": "#60a5fa"
-        },
-        "500": {
-          "$type": "color",
-          "$value": "#016fff"
-        },
-        "600": {
-          "$type": "color",
-          "$value": "#0058d6"
-        },
-        "700": {
-          "$type": "color",
-          "$value": "#0041a8"
-        },
-        "800": {
-          "$type": "color",
-          "$value": "#002d7a"
-        },
-        "900": {
-          "$type": "color",
-          "$value": "#001a4d"
-        },
-        "950": {
-          "$type": "color",
-          "$value": "#000c26"
-        }
-      },
       "brand-2": {
         "50": {
           "$type": "color",
@@ -293,6 +247,32 @@ module.exports = {
           "$type": "color",
           "$value": "#020617"
         }
+      }
+    },
+    "shadow": {
+      "color-shadow-sm": {
+        "$type": "color",
+        "$value": "#00000014"
+      },
+      "color-shadow": {
+        "$type": "color",
+        "$value": "#00000033"
+      },
+      "color-shadow-md": {
+        "$type": "color",
+        "$value": "#00000026"
+      },
+      "color-shadow-lg": {
+        "$type": "color",
+        "$value": "#00000026"
+      },
+      "color-shadow-xl": {
+        "$type": "color",
+        "$value": "#00000026"
+      },
+      "color-shadow-2xl": {
+        "$type": "color",
+        "$value": "#00000040"
       }
     },
     "typography": {
@@ -568,32 +548,6 @@ module.exports = {
         "$type": "number",
         "$value": 4
       }
-    },
-    "shadow": {
-      "color-shadow-sm": {
-        "$type": "color",
-        "$value": "#00000014"
-      },
-      "color-shadow": {
-        "$type": "color",
-        "$value": "#00000033"
-      },
-      "color-shadow-md": {
-        "$type": "color",
-        "$value": "#00000026"
-      },
-      "color-shadow-lg": {
-        "$type": "color",
-        "$value": "#00000026"
-      },
-      "color-shadow-xl": {
-        "$type": "color",
-        "$value": "#00000026"
-      },
-      "color-shadow-2xl": {
-        "$type": "color",
-        "$value": "#00000040"
-      }
     }
   },
   "Semantic": {
@@ -633,10 +587,7 @@ module.exports = {
           "$type": "color",
           "$value": {
             "$type": "color",
-            "$value": {
-              "$type": "color",
-              "$value": "#64748b"
-            }
+            "$value": "#64748b"
           }
         },
         "text-title": {
@@ -664,10 +615,7 @@ module.exports = {
           "$type": "color",
           "$value": {
             "$type": "color",
-            "$value": {
-              "$type": "color",
-              "$value": "#003a99"
-            }
+            "$value": "#003a99"
           }
         }
       },
@@ -690,13 +638,24 @@ module.exports = {
           "$type": "color",
           "$value": {
             "$type": "color",
-            "$value": {
-              "$type": "color",
-              "$value": "#016fff"
-            }
+            "$value": "#016fff"
           }
         },
         "bg-footer": {
+          "$type": "color",
+          "$value": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        },
+        "bg-header": {
+          "$type": "color",
+          "$value": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        },
+        "bg-drop-down": {
           "$type": "color",
           "$value": {
             "$type": "color",
@@ -719,7 +678,7 @@ module.exports = {
           "$type": "color",
           "$value": {
             "$type": "color",
-            "$value": "#9ca3af"
+            "$value": "#d1d5db"
           }
         },
         "button-secondary": {
@@ -741,6 +700,27 @@ module.exports = {
               "$value": "#64748b"
             }
           }
+        },
+        "drop-down": {
+          "$type": "color",
+          "$value": {
+            "$type": "color",
+            "$value": "#d1d5db"
+          }
+        },
+        "footer": {
+          "$type": "color",
+          "$value": {
+            "$type": "color",
+            "$value": "#e5e7eb"
+          }
+        },
+        "header": {
+          "$type": "color",
+          "$value": {
+            "$type": "color",
+            "$value": "#d1d5db"
+          }
         }
       }
     },
@@ -759,7 +739,7 @@ module.exports = {
           "$value": 20
         }
       },
-      "link-button": {
+      "link button": {
         "$type": "number",
         "$value": {
           "$type": "number",
@@ -809,6 +789,13 @@ module.exports = {
         }
       },
       "footer": {
+        "$type": "number",
+        "$value": {
+          "$type": "number",
+          "$value": 10
+        }
+      },
+      "header": {
         "$type": "number",
         "$value": {
           "$type": "number",
@@ -865,7 +852,7 @@ module.exports = {
         "$type": "number",
         "$value": {
           "$type": "number",
-          "$value": 4
+          "$value": 8
         }
       },
       "dropdown": {
