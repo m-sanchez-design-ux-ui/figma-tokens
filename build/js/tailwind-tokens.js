@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Sep 2025 10:47:46 GMT
+ * Generated on Mon, 15 Sep 2025 13:39:12 GMT
  */
 
 module.exports = {
@@ -555,377 +555,218 @@ module.exports = {
       "main": {
         "brand-primary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#016fff"
-          }
+          "$value": "#016fff"
         },
         "brand-secondary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#003a99"
-          }
+          "$value": "#003a99"
         },
         "brand-tertiary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#64748b"
-          }
+          "$value": "#64748b"
         }
       },
       "text": {
         "text-primary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#016fff"
-          }
+          "$value": "#016fff"
         },
         "text-tertiary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#64748b"
-          }
+          "$value": "#64748b"
         },
         "text-title": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#374151"
-          }
+          "$value": "#374151"
         },
         "text-paragraph": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#6b7280"
-          }
+          "$value": "#6b7280"
         },
         "text-contrast": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#ffffff"
-          }
+          "$value": "#ffffff"
         },
         "text-secondary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#003a99"
-          }
+          "$value": "#003a99"
         }
       },
       "background": {
         "bg-body": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#eff6ff"
-          }
+          "$value": "#eff6ff"
         },
         "bg-card": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#ffffff"
-          }
+          "$value": "#ffffff"
         },
         "bg-primary-button": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#016fff"
-          }
+          "$value": "#016fff"
         },
         "bg-footer": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#ffffff"
-          }
+          "$value": "#ffffff"
         },
         "bg-header": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#ffffff"
-          }
+          "$value": "#ffffff"
         },
         "bg-drop-down": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#ffffff"
-          }
+          "$value": "#ffffff"
         }
       },
       "line": {
         "button-primary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": {
-              "$type": "color",
-              "$value": "#016fff"
-            }
-          }
+          "$value": "#016fff"
         },
         "card": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#d1d5db"
-          }
+          "$value": "#d1d5db"
         },
         "button-secondary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": {
-              "$type": "color",
-              "$value": "#003a99"
-            }
-          }
+          "$value": "#003a99"
         },
         "button-tertiary": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": {
-              "$type": "color",
-              "$value": "#64748b"
-            }
-          }
+          "$value": "#64748b"
         },
         "drop-down": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#d1d5db"
-          }
+          "$value": "#d1d5db"
         },
         "footer": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#e5e7eb"
-          }
+          "$value": "#e5e7eb"
         },
         "header": {
           "$type": "color",
-          "$value": {
-            "$type": "color",
-            "$value": "#d1d5db"
-          }
+          "$value": "#d1d5db"
         }
       }
     },
     "padding": {
       "button-base-x": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 8
-        }
+        "$value": 8
       },
       "card": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 20
-        }
+        "$value": 20
       },
       "link button": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 0
-        }
+        "$value": 0
       },
       "button-lg-x": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 10
-        }
+        "$value": 10
       },
       "button-xl-x": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 20
-        }
+        "$value": 20
       },
       "button-base-y": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 12
-        }
+        "$value": 12
       },
       "button-lg-y": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 20
-        }
+        "$value": 20
       },
       "button-xl-y": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 12
-        }
+        "$value": 12
       },
       "drop-down": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 10
-        }
+        "$value": 10
       },
       "footer": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 10
-        }
+        "$value": 10
       },
       "header": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 10
-        }
+        "$value": 10
       }
     },
     "gap": {
       "gap-xs": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 4
-        }
+        "$value": 4
       },
       "gap-sm": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 8
-        }
+        "$value": 8
       },
       "gap-md": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 16
-        }
+        "$value": 16
       },
       "gap-lg": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 32
-        }
+        "$value": 32
       },
       "gap-xl": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 64
-        }
+        "$value": 64
       }
     },
     "radius": {
       "card": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 20
-        }
+        "$value": 20
       },
       "button": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 8
-        }
+        "$value": 8
       },
       "dropdown": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 8
-        }
+        "$value": 8
       }
     },
     "font-sizes": {
       "h1": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 64
-        }
+        "$value": 64
       },
       "h2": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 48
-        }
+        "$value": 48
       },
       "h3": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 32
-        }
+        "$value": 32
       },
       "h4": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 24
-        }
+        "$value": 24
       },
       "h5": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 20
-        }
+        "$value": 20
       },
       "h6": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 18
-        }
+        "$value": 18
       },
       "p": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 16
-        }
+        "$value": 16
       },
       "span": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 14
-        }
+        "$value": 14
       },
       "label": {
         "$type": "number",
-        "$value": {
-          "$type": "number",
-          "$value": 12
-        }
+        "$value": 12
       }
     }
   },
